@@ -1,0 +1,45 @@
+.menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 1px solid rgb(166, 181, 189);
+    transition: background-color 0.5s;
+
+    .radio-button {
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(82, 137, 255, 0.871);
+        border-radius: 3px;
+        transition: background-color 0.5s;
+
+        img {
+            max-width: 12px;
+            max-height: 12px;
+        }
+    }
+
+    &:hover {
+        background-color: rgb(246, 246, 246);
+
+        .radio-button {
+            background-color: rgba(82, 137, 255, 0.871);
+        }
+    }
+
+    &.active {
+        background-color: rgb(240, 240, 240);
+
+        .radio-button {
+            background-color: rgb(70, 129, 255);
+        }
+    }
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}
