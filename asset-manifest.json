@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inboost/static/css/main.85e9edca.css",
+    "main.js": "/inboost/static/js/main.422a8a71.js",
+    "index.html": "/inboost/index.html",
+    "static/media/galka.svg": "/inboost/static/media/galka.eac1c40593c4c579eb311ac8c2d151f6.svg",
+    "static/media/arrow.svg": "/inboost/static/media/arrow.5c9d0b097de027815b5658a0746783c2.svg",
+    "main.85e9edca.css.map": "/inboost/static/css/main.85e9edca.css.map",
+    "main.422a8a71.js.map": "/inboost/static/js/main.422a8a71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85e9edca.css",
+    "static/js/main.422a8a71.js"
+  ]
+}
